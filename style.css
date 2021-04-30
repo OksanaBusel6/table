@@ -60,3 +60,6 @@ button{
 .product__btn + .product__btn{
   margin-left: 5px;
 }
+.product__resAll {
+  text-align: center;
+}
