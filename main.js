@@ -38,6 +38,9 @@ function addRow(btn) {
 function btnClose(btn){
   let parBtn = btn.parentElement;
   container.removeChild(parBtn);
+  let resAll = document.querySelectorAll('.product__input--result');
+  let allRes = getSum(resAll);
+  document.querySelector('.product__resAll').innerHTML = `Result all = ${allRes}`
 }
 
 function addTable() {
